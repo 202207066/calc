@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="basic.cpp" />
     <ClCompile Include="calc.cpp" />
+    <ClCompile Include="dive.cpp" />
+    <ClCompile Include="mod.cpp" />
+    <ClCompile Include="mul.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic.h" />
+    <ClInclude Include="dive.h" />
+    <ClInclude Include="mod.h" />
+    <ClInclude Include="mul.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
