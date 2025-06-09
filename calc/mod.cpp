@@ -1,6 +1,6 @@
 #include "basic.h"
 int mod(int __x, int __y) {
-    if (b == 0) return 0; 
+    if (__y == 0) return 0; 
 
     int result = __x;
   
