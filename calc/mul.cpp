@@ -1,4 +1,13 @@
-int mul(int __x, int  __y)
+#include "basic.h"
+
+int mul(int x, int y)
 {
-	return 0;
+	int sum = 0;
+	int i = 0;
+
+	for (i = 0; i < y; i++) {
+		sum = add(sum, x);
+	}
+
+	return sum;
 }
